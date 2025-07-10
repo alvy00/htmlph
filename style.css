@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    cursor: default;
 }
 
 .header{
@@ -189,11 +190,48 @@
     color: rgba(131, 130, 130, 0.5);
 }
 
-.inter-normal {
-  font-family: "Inter", sans-serif;
+
+.ready-focus{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 150px 90px 150px;
+    padding: 70px 150px;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.title{
+    font-size: 50px;
+    font: bold;
+    margin-bottom: 20px;
+}
+.subtitle{
+    font-size: 15px;
+    color: rgb(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.ready-focus button{
+    border: none;
+    background-color: #4E47FF;
+    color: #ffffff;
+    padding: 12px 36px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    cursor: pointer;
+}
+.ready-focus button:hover{
+        background-color: #00008B;
+    transform: scale(1.05);
+}
+.ready-focus img{
+    border-radius: 40px;
 }
 
 
+.inter-normal {
+  font-family: "Inter", sans-serif;
+}
 .raleway-normal {
   font-family: "Raleway", sans-serif;
 }
