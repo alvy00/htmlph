@@ -221,12 +221,70 @@
     cursor: pointer;
 }
 .ready-focus button:hover{
-        background-color: #00008B;
+    background-color: #00008B;
     transform: scale(1.05);
 }
 .ready-focus img{
     border-radius: 40px;
 }
+
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px 14px 150px;
+    padding: 71px 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.form h1{
+    font-size: 95px;
+}
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-cont{
+    display: flex;
+    flex-direction: column;
+}
+.input-cont label{
+    margin-bottom: 5px;
+}
+.input-cont input[type="text"]{
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+}
+.input-cont input[type="email"]{
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+}
+.input-cont textarea{
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+}
+.form-inputs button{
+border: none;
+    background-color: #4E47FF;
+    color: #ffffff;
+    padding: 19px 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    cursor: pointer;
+}
+.form-inputs button:hover{
+    background-color: #00008B;
+    transform: scale(1.05);
+}
+
+
+
+
 
 
 .inter-normal {
