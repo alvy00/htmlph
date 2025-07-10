@@ -168,6 +168,9 @@
 .ws-card-text{
     margin-bottom: 24px;
 }
+.ws-card-text h2{
+    font-size: 30px;
+}
 .ws-card-reviewer{
     display: flex;
     gap: 5px;
