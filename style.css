@@ -325,6 +325,10 @@ border: none;
     color: rgb(137, 135, 161, 1);
     font-size: 20px;
 }
+.footer-anchor{
+    text-decoration: none;
+    cursor: pointer;
+}
 
 
 .inter-normal {
